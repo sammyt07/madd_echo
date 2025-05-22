@@ -105,6 +105,11 @@ a:hover {
   display: inline-block;
 }
 
+.adyasha, .sammy {
+  color: #80d8ff;
+  font-weight: bold;
+}
+
 .publication-banner img {
 }
 

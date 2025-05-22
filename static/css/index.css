@@ -72,11 +72,16 @@ pre, code {
     radial-gradient(2px 2px at 10% 50%, #fff, transparent),
     radial-gradient(1.2px 1.2px at 60% 10%, #fff, transparent),
     radial-gradient(3px 3px at 60% 10%, #409cfe, transparent);
-  animation: starAnim 60s linear infinite;
+  animation: starAnim 60s linear infinite, twinkle 1.5s ease-in-out infinite alternate;
 }
 
 .starfield::after {
   animation-delay: -30s;
+}
+
+@keyframes twinkle {
+  from { opacity: 0.9; }
+  to   { opacity: 1; }
 }
 
 @keyframes starAnim {

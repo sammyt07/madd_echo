@@ -111,6 +111,8 @@ pre, code {
 }
 
 .publication-authors {
+  color: #ffffff !important;
+  font-weight: 500;
 }
 
 .publication-authors a {
@@ -126,8 +128,8 @@ pre, code {
 }
 
 .adyasha, .sammy {
-  color: #80d8ff;
-  font-weight: bold;
+  color: #80d8ff;  /* Or keep #ffffff for default */
+  font-weight: 600;
 }
 
 .publication-banner img {

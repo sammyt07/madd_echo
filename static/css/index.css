@@ -1,6 +1,4 @@
 body {
-  font-family: 'Noto Sans', sans-serif;
-  color: #eeeeee;
   background: url('./static/images/stars.jpg') no-repeat center center fixed;
   background-size: cover;
 }

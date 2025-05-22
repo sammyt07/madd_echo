@@ -11,10 +11,11 @@ a:hover {
   color: #ffcc80;
 }
 
-.title, .subtitle {
-  color: #ffffff;
+h2.title,
+h2.subtitle,
+.section .title {
+  color: #ffffff !important;
 }
-
 
 .footer .icon-link {
     font-size: 25px;

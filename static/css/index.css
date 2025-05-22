@@ -8,6 +8,16 @@ body {
     color: #000;
 }
 
+.footer.minimal {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  text-align: center;
+}
+
+.footer.minimal p {
+  margin: 0;
+}
+
 .link-block a {
     margin-top: 5px;
     margin-bottom: 5px;

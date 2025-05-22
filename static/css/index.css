@@ -11,11 +11,16 @@ a:hover {
   color: #ffcc80;
 }
 
+h1.title,
 h2.title,
 h2.subtitle,
-.section .title {
+.section .title,
+.hero .title {
   color: #ffffff !important;
+  opacity: 1 !important;
+  filter: none !important;
 }
+
 
 pre, code {
   background-color: #2e2e2e;

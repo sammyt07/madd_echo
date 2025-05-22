@@ -17,6 +17,25 @@ h2.subtitle,
   color: #ffffff !important;
 }
 
+pre, code {
+  background-color: #2e2e2e;
+  color: #e0e0e0;
+  border-radius: 5px;
+  padding: 1em;
+  overflow-x: auto;
+  font-family: 'Courier New', monospace;
+}
+
+#BibTeX pre {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content pre {
+  background-color: #2e2e2e !important;
+  color: #e0e0e0 !important;
+}
+
 .footer .icon-link {
     font-size: 25px;
     color: #eeeeee;
